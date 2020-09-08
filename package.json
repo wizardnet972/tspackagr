@@ -1,0 +1,37 @@
+{
+  "name": "tspackagr",
+  "version": "0.0.1",
+  "description": "Create TypeScript package from the CLI. zero-config but highly customizable",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wizardnet972/tspackagr.git"
+  },
+  "keywords": [],
+  "author": "wizardnet972",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wizardnet972/tspackagr/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "bin": {
+    "tspackagr": "./dist/index.js"
+  },
+  "homepage": "https://github.com/wizardnet972/tspackagr#readme",
+  "dependencies": {
+    "sade": "^1.7.3",
+    "tslib": "^2.0.1",
+    "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.6.4"
+  }
+}
